@@ -103,3 +103,100 @@ Amazon SQS, Amazon SNS, Amazon EventBridge
 Enable asynchronous and event-driven communication
 
 These services represent the technologies covered or targeted by this learning repository, not necessarily services already implemented.
+
+
+🧩 Architecture Patterns to Explore
+
+1. Basic Web Application
+
+A foundational architecture for hosting a web application on AWS.
+
+Typical components:
+
+Amazon Route 53 for DNS.
+
+Amazon EC2 for application hosting.
+
+Security Groups to control network traffic.
+
+Amazon EBS for instance block storage.
+
+Amazon CloudWatch for monitoring.
+
+Key concepts: Compute, networking, security groups, public access, and application hosting.
+
+2. Highly Available Web Application
+
+An architecture designed to reduce downtime by distributing resources across multiple Availability Zones.
+
+Typical components:
+
+Amazon VPC with public and private subnets.
+
+Application Load Balancer.
+
+EC2 instances in an Auto Scaling group.
+
+Amazon RDS with Multi-AZ deployment.
+
+Amazon CloudWatch alarms.
+
+Key concepts: High availability, redundancy, fault tolerance, health checks, and automatic scaling.
+
+3. Serverless Application
+
+An application architecture that minimizes direct server management.
+
+Typical components:
+
+Amazon API Gateway.
+
+AWS Lambda.
+
+Amazon DynamoDB.
+
+Amazon S3.
+
+Amazon CloudWatch.
+
+Key concepts: Event-driven computing, managed services, automatic scaling, and pay-per-use pricing.
+
+4. Secure VPC Architecture
+
+A network design that separates internet-facing resources from internal application and database resources.
+
+Typical components:
+
+Public and private subnets.
+
+Internet Gateway and, where appropriate, NAT Gateway.
+
+Route Tables and Security Groups.
+
+Network ACLs.
+
+IAM roles and policies.
+
+VPC endpoints where suitable.
+
+Key concepts: Network segmentation, controlled connectivity, private resources, and least-privilege access.
+
+5. Containerized Application
+
+An architecture for deploying applications packaged as containers.
+
+Typical components:
+
+Amazon ECS or Amazon EKS.
+
+Amazon ECR for container images.
+
+Application Load Balancer.
+
+IAM roles.
+
+Amazon CloudWatch.
+
+Key concepts: Container orchestration, image registries, service discovery, scaling, and deployment management.
+
+The patterns above are reference designs and learning objectives. Each should be linked to its own diagram or implementation when added to the repository.
