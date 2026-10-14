@@ -200,3 +200,125 @@ Amazon CloudWatch.
 Key concepts: Container orchestration, image registries, service discovery, scaling, and deployment management.
 
 The patterns above are reference designs and learning objectives. Each should be linked to its own diagram or implementation when added to the repository.
+
+🌐 Essential AWS Networking Concepts
+
+Understanding networking is fundamental to designing cloud infrastructure.
+
+Amazon VPC: A logically isolated virtual network in AWS.
+
+Public subnet: A subnet whose routing allows internet connectivity through an Internet Gateway; public IP addressing and security rules are also required for direct inbound access.
+
+Private subnet: A subnet without a direct route to an Internet Gateway. Outbound internet access can be provided through a NAT Gateway when required.
+
+Internet Gateway (IGW): Enables internet connectivity for appropriately routed VPC resources.
+
+NAT Gateway: Allows resources in private subnets to initiate supported outbound connections without accepting unsolicited inbound connections through the NAT.
+
+Route Table: Determines where network traffic is directed.
+
+Security Group: A stateful virtual firewall associated with supported AWS resources.
+
+Network ACL (NACL): A stateless subnet-level traffic filter.
+
+Availability Zone (AZ): An isolated location within an AWS Region designed to support resilient infrastructure.
+
+Elastic Load Balancing: Distributes incoming traffic across registered targets.
+
+🔐 Security Principles
+
+Security should be considered at every stage of architecture design.
+
+This repository emphasizes the following principles:
+
+Least privilege: Grant only the permissions required for a task.
+
+Identity and access management: Use IAM roles and policies to control access.
+
+Network isolation: Keep databases and internal services private whenever possible.
+
+Encryption: Protect data at rest and in transit.
+
+Secrets management: Avoid hardcoding passwords, access keys, and other sensitive information.
+
+Monitoring and auditing: Use CloudWatch and CloudTrail to observe resources and investigate activity.
+
+Defense in depth: Combine identity controls, network restrictions, encryption, and monitoring.
+
+Cost-aware security: Select appropriate controls without exposing resources unnecessarily.
+
+Never commit AWS access keys, credentials, private keys, or sensitive configuration files to GitHub.
+
+📐 AWS Well-Architected Framework
+
+AWS architecture decisions can be evaluated against the six pillars of the AWS Well-Architected Framework:
+
+Pillar
+
+Main concern
+
+Operational Excellence
+
+Operating, monitoring, and continuously improving workloads
+
+Security
+
+Protecting systems, identities, applications, and data
+
+Reliability
+
+Recovering from failures and maintaining availability
+
+Performance Efficiency
+
+Using resources efficiently as requirements change
+
+Cost Optimization
+
+Managing and reducing unnecessary cloud spending
+
+Sustainability
+
+Reducing the environmental impact of cloud workloads
+
+These pillars provide a framework for reviewing design decisions and identifying opportunities for improvement.
+
+📂 Repository Structure
+
+As the repository grows, the following structure can be used to organize its contents:
+
+AWS-Architectures/
+│
+├── README.md
+│
+├── architectures/
+│   ├── basic-web-application/
+│   │   ├── architecture.png
+│   │   └── README.md
+│   │
+│   ├── highly-available-web-app/
+│   │   ├── architecture.png
+│   │   └── README.md
+│   │
+│   ├── serverless-application/
+│   │   ├── architecture.png
+│   │   └── README.md
+│   │
+│   └── secure-vpc/
+│       ├── architecture.png
+│       └── README.md
+│
+├── projects/
+│   └── project-name/
+│       ├── README.md
+│       ├── diagrams/
+│       └── src/
+│
+├── docs/
+│   ├── networking.md
+│   ├── security.md
+│   └── cost-optimization.md
+│
+└── LICENSE
+
+This is a proposed organizational structure. Update it to match the files and directories actually present in the repository.
