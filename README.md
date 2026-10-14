@@ -33,3 +33,73 @@ Evaluate architectural trade-offs involving performance, reliability, security, 
 
 Build a documented portfolio of cloud infrastructure projects.
 
+---
+🏗️ Core AWS Architecture Components
+
+Category
+
+AWS services
+
+Main purpose
+
+Compute
+
+Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS
+
+Run applications and workloads
+
+Storage
+
+Amazon S3, Amazon EBS, Amazon EFS
+
+Store objects, block data, and shared files
+
+Networking
+
+Amazon VPC, Subnets, Route Tables, Internet Gateway, NAT Gateway
+
+Connect and isolate cloud resources
+
+Load Balancing
+
+Elastic Load Balancing (ALB/NLB)
+
+Distribute incoming traffic
+
+Databases
+
+Amazon RDS, Amazon Aurora, Amazon DynamoDB
+
+Store and manage application data
+
+Content Delivery
+
+Amazon CloudFront, Amazon Route 53
+
+Deliver content and manage DNS routing
+
+Security
+
+AWS IAM, AWS KMS, AWS WAF, AWS Secrets Manager
+
+Manage permissions, encryption, and protection
+
+Monitoring
+
+Amazon CloudWatch, AWS CloudTrail
+
+Monitor resources and record activity
+
+Automation
+
+AWS CloudFormation, AWS CDK, Terraform
+
+Provision and manage infrastructure as code
+
+Messaging
+
+Amazon SQS, Amazon SNS, Amazon EventBridge
+
+Enable asynchronous and event-driven communication
+
+These services represent the technologies covered or targeted by this learning repository, not necessarily services already implemented.
