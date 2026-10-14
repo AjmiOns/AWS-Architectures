@@ -322,3 +322,60 @@ AWS-Architectures/
 └── LICENSE
 
 This is a proposed organizational structure. Update it to match the files and directories actually present in the repository.
+
+
+🛠️ Tools and Technologies
+
+Technologies that may be used to design, deploy, and document the architectures include:
+
+Amazon Web Services (AWS): Cloud infrastructure and managed services.
+
+AWS Management Console: Visual resource management.
+
+AWS CLI: Command-line infrastructure operations.
+
+Python and Boto3: AWS automation using Python.
+
+Terraform / AWS CloudFormation: Infrastructure as Code.
+
+Draw.io / diagrams.net: Architecture diagrams.
+
+Git and GitHub: Version control and project documentation.
+
+🚀 How to Use This Repository
+
+Browse the available architecture folders.
+
+Open the architecture diagram and identify the AWS components.
+
+Read the associated documentation to understand the purpose of each service.
+
+Follow the request flow between components.
+
+Review the networking and security configuration.
+
+Examine deployment instructions or infrastructure code when available.
+
+Experiment in a controlled AWS environment and clean up resources after testing.
+
+For each architecture, the documentation should explain the use case, design decisions, traffic flow, security controls, deployment procedure, estimated costs, and known limitations.
+
+💰 Cost Management
+
+AWS resources can generate charges even when they are used for learning.
+
+Recommended practices:
+
+Choose resource sizes appropriate to the workload.
+
+Stop or terminate unused compute resources.
+
+Delete temporary load balancers, NAT Gateways, and other billable resources when no longer needed.
+
+Use AWS Budgets and billing alerts.
+
+Review data transfer and storage costs.
+
+Check current AWS pricing before deployment.
+
+Never assume that a service is free simply because it is used in a learning project.
