@@ -15,3 +15,21 @@ Its purpose is to connect theoretical cloud computing concepts with real-world a
 The repository is intended to evolve as new architectures, diagrams, and hands-on experiments are added.
 
 
+🎯 Objectives
+
+Understand the fundamentals of AWS cloud architecture.
+
+Explore how AWS services communicate and integrate.
+
+Design architectures that support scalability and high availability.
+
+Apply security best practices and the principle of least privilege.
+
+Understand networking, compute, storage, databases, and application delivery.
+
+Explore infrastructure automation and Infrastructure as Code (IaC).
+
+Evaluate architectural trade-offs involving performance, reliability, security, and cost.
+
+Build a documented portfolio of cloud infrastructure projects.
+
