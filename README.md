@@ -89,6 +89,7 @@ An application architecture that minimizes direct server management.
 
 ### 4. Secure VPC Architecture
 
+
 A network design that separates internet-facing resources from internal application and database resources.
 
 **Typical components:**
