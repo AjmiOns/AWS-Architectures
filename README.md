@@ -1,4 +1,4 @@
-# AWS Architectures ☁️
+# AWS Architectures  ☁️
 
 **Designing, Understanding, and Documenting Cloud Solutions on Amazon Web Services**
 
