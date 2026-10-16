@@ -15,8 +15,6 @@ Its purpose is to connect theoretical cloud computing concepts with real-world a
 
 The repository is intended to evolve as new architectures, diagrams, and hands-on experiments are added.
 
-
-
 ## 🎯 Objectives
 
 - Understand the fundamentals of AWS cloud architecture.
