@@ -78,6 +78,8 @@ An architecture designed to reduce downtime by distributing resources across mul
 
 ### 3. Serverless Application
 
+
+
 An application architecture that minimizes direct server management.
 
 **Typical components:**
