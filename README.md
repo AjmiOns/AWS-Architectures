@@ -40,7 +40,8 @@ The repository is intended to evolve as new architectures, diagrams, and hands-o
 | Automation | AWS CloudFormation, AWS CDK, Terraform | Provision and manage infrastructure as code |
 | Messaging | Amazon SQS, Amazon SNS, Amazon EventBridge | Enable asynchronous and event-driven communication |
 
-*These services represent the technologies covered or targeted by this learning repository, not necessarily services already implemented.*
+**These services represent the technologies covered or targeted by this learning repository, not necessarily services already implemented.**
+
 
 ## 🧩 Architecture Patterns to Explore
 
