@@ -6,9 +6,6 @@
 A technical learning repository dedicated to exploring AWS architectures, understanding cloud infrastructure components, and documenting how AWS services work together to build secure, scalable, highly available, and cost-efficient solutions.
 
 ---
-
-
-
 ## 📌 Overview
 
 This repository brings together AWS architecture diagrams, infrastructure design notes, technical explanations, and practical cloud projects.
