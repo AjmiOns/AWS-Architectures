@@ -63,6 +63,7 @@ A foundational architecture for hosting a web application on AWS.
 
 An architecture designed to reduce downtime by distributing resources across multiple Availability Zones.
 
+
 **Typical components:**
 - Amazon VPC with public and private subnets.
 - Application Load Balancer.
