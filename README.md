@@ -25,6 +25,8 @@ The repository is intended to evolve as new architectures, diagrams, and hands-o
 - Evaluate architectural trade-offs involving performance, reliability, security, and cost.
 - Build a documented portfolio of cloud infrastructure projects.
 
+
+
 ## 🏗️ Core AWS Architecture Components
 
 | Category | AWS services | Main purpose |
